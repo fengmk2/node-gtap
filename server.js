@@ -1,2 +1,2 @@
 
-require('weibo').start_gtap(80, '~/');
+require('weibo').start_gtap(80, process.env.HOME);
