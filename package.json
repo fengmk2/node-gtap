@@ -1,0 +1,18 @@
+{
+  "author": "mk2 <fengmk2@gmail.com> (http://fengmk2.cnblogs.com/)",
+  "name": "gtap",
+  "description": "A Twitter",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/node-gtap.git"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "v0.4.7"
+  },
+  "dependencies": {
+    "connect": "*",
+    "weibo": "*"
+  }
+}
