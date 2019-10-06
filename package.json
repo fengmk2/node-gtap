@@ -13,6 +13,12 @@
   },
   "dependencies": {
     "connect": "*",
-    "weibo": "*"
-  }
+    "weibo": "*",
+    "snyk": "^1.231.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
